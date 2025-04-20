@@ -19,13 +19,13 @@
         "tsConfigPath": "apps/api-gateway/tsconfig.app.json"
       }
     },
-    "auth-acces-ms": {
+    "inventory-ms": {
       "type": "application",
-      "root": "apps/auth-acces-ms",
+      "root": "apps/inventory-ms",
       "entryFile": "main",
-      "sourceRoot": "apps/auth-acces-ms/src",
+      "sourceRoot": "apps/inventory-ms/src",
       "compilerOptions": {
-        "tsConfigPath": "apps/auth-acces-ms/tsconfig.app.json"
+        "tsConfigPath": "apps/inventory-ms/tsconfig.app.json"
       }
     },
     "user-managment-ms": {

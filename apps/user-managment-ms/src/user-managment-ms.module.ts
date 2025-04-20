@@ -1,10 +1,9 @@
 import { Module } from '@nestjs/common';
-import { UserManagmentMsController } from './user-managment-ms.controller';
-import { UserManagmentMsService } from './user-managment-ms.service';
+import { AuthAccesModule } from './auth-acces/auth-acces.module';
 
 @Module({
-  imports: [],
-  controllers: [UserManagmentMsController],
-  providers: [UserManagmentMsService],
+  imports: [AuthAccesModule],
+  controllers: [],
+  providers: [],
 })
 export class UserManagmentMsModule {}
